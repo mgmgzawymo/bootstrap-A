@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Bebas+Neue&display=swap');
+
+@font-face{
+    font-family: 'nayone';
+    src:url("../MyanmarNayone.ttf")
+}
+@font-face {
+    font-family: 'sagar';
+    src:url(../MyanmarSagar.ttf)
+}
+$font-family-sans-serif :'Antonio','sagar', sans-serif;
+
+
+$accordion-button-color:orange;
+$accordion-button-active-color :blue;
+$accordion-icon-transition : 1s;
+$accordion-button-icon: url("../node_modules/bootstrap-icons/icons/arrow-down.svg");
+$accordion-button-active-icon : url("../node_modules/bootstrap-icons/icons/arrow-down.svg");
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+.h1{
+    font-family:   'nayone';
+}
